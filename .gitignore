@@ -1,5 +1,5 @@
 # Ignore all .txt files in the data folder
-data/*.txt
+data/docgraph-data/*.txt
 
 # Python
 __pycache__/
@@ -24,3 +24,8 @@ ENV/
 .DS_Store
 Thumbs.db
 
+# Ignore all CSV files
+*.csv
+
+# temp
+temp
